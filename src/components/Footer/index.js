@@ -6,14 +6,14 @@ const Footer = () => {
       <div className="container">
         &copy;{new Date().getFullYear()} by Haley Schwenk
       </div>
-      <div class="container">
-        <ul class="flex-row space-between">
+      <div className="container">
+        <ul className="flex-row space-between">
           <li>
             <a href="mailto: haleynicole126@gmail.com">Email</a>
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/haley-schwenk-a8b489112/"
+              href="https://www.linkedin.com/in/haley-schwenk"
               target="_blank"
             >
               LinkedIn
