@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-port-haley/static/css/main.3998e0be.css",
+    "main.js": "/react-port-haley/static/js/main.fcba9e99.js",
+    "static/js/787.baf8a292.chunk.js": "/react-port-haley/static/js/787.baf8a292.chunk.js",
+    "static/media/cover_image.jpg": "/react-port-haley/static/media/cover_image.b34e6d507eac0045bee1.jpg",
+    "static/media/on_screen.png": "/react-port-haley/static/media/on_screen.6522aeaa24c237adde24.png",
+    "static/media/book_search.png": "/react-port-haley/static/media/book_search.3763a8068fc6beb641d9.png",
+    "static/media/Petlink2_screenshot.png": "/react-port-haley/static/media/Petlink2_screenshot.693ddf1f098b03ce0107.png",
+    "static/media/petlink.png": "/react-port-haley/static/media/petlink.1993676f12ce3904d715.png",
+    "static/media/selfie.jpg": "/react-port-haley/static/media/selfie.937f98ac127ebe312216.jpg",
+    "static/media/portfolio1.png": "/react-port-haley/static/media/portfolio1.1c129b4e77f595fb5b65.png",
+    "static/media/cover_image_v2.jpg": "/react-port-haley/static/media/cover_image_v2.f35b1b226c9bad1a6609.jpg",
+    "static/media/schwenk_resume.pdf": "/react-port-haley/static/media/schwenk_resume.f9a5a54921676b1eb4c4.pdf",
+    "static/media/budget_tracker.png": "/react-port-haley/static/media/budget_tracker.cb13f08b3b553e8a8d67.png",
+    "index.html": "/react-port-haley/index.html",
+    "main.3998e0be.css.map": "/react-port-haley/static/css/main.3998e0be.css.map",
+    "main.fcba9e99.js.map": "/react-port-haley/static/js/main.fcba9e99.js.map",
+    "787.baf8a292.chunk.js.map": "/react-port-haley/static/js/787.baf8a292.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3998e0be.css",
+    "static/js/main.fcba9e99.js"
+  ]
+}
