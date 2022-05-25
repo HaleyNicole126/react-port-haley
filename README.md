@@ -1,7 +1,7 @@
 
   
   # React Portfolio
-  Link to application: 
+  Link to application: https://haleynicole126.github.io/react-port-haley/
 
   ## Table of Contents
   - [Description](#description)
@@ -15,6 +15,8 @@
   This project is a portfolio designed as an online resume for Haley Schwenk to showcase her work. It was designed using React. 
 
   ## Screenshots
+  ![image](https://user-images.githubusercontent.com/94570754/170235271-34feb71d-aede-458f-9b72-6f54cb70b356.png)
+
   
 
   ## Contributing
