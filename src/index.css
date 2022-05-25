@@ -248,6 +248,7 @@ textarea {
 .card {
   width: 25%;
   text-align: center;
+  padding: 5px;
 }
 
 .img-thumbnail {
