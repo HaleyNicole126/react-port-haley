@@ -1,4 +1,5 @@
 import React, { useState}  from 'react';
+import { Link } from 'react-router-dom';
 
 const ProjectList = ({ project }) => {
 const projects = [
@@ -51,8 +52,9 @@ return (
             className="img-thumbnail mx-1"
             key={project.image}
           />
-          <a href='{project.application}'>{project.name} link</a><br></br>
-          <a href='{project.github}'>Github link</a></div>
+          <Link to={project.application}>{project.name} link</Link><br></br>
+          <Link to={project.github}>Github link</Link>
+          </div>
         ))}
       </div>
     </div>

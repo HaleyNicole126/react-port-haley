@@ -15,6 +15,7 @@ function App() {
   return (
     <Router>
       <Header />
+      <main>
       <div className="container">
         <Routes>
           <Route path="/" element={<About />} />
@@ -23,6 +24,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
       </div>
+      </main>
       <Footer />
     </Router>
   );
