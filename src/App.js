@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import logo from "./logo.svg";
-import "./App.css";
+// import "./App.css";
 import About from "./components/About/index.js";
 import Nav from "./components/Navigation/index.js";
 import Project from "./components/Project";

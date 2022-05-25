@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from "../../assets/resume/schwenk_resume.pdf";
 
 function Resume() {
     return (
@@ -22,7 +23,7 @@ function Resume() {
                 <li>SPSS</li>
                 <li>Microsoft Excel</li>
                 </ul>
-                <h2><a href="../../assets/resume/schwenk_resume.pdf" target="_blank">Resume pdf</a></h2>
+                <h2><a href={resume} target="_blank">Resume pdf</a></h2>
         </section>
     );
 }

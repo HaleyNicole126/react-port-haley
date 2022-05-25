@@ -36,7 +36,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -91,12 +91,16 @@ a:hover {
   text-decoration: underline;
 }
 
+link:hover {
+  opacity: .8;
+}
+
 header {
   background: var(--dark);
 }
 
 header a {
-  color: var(--light);
+  color: var(--darker);
 }
 
 button {
@@ -158,11 +162,20 @@ nav  li {
   cursor: pointer;
 }
 
+.nav-link:hover {
+  opacity: .7;
+}
+
 textarea {
 	width: 600px;
 	height: 120px;
 	border: 3px solid #cccccc;
 	padding: 5px;
+}
+
+.header-background{
+  width: 100%;
+  background-image:url("/src/assets/cover/cover_image.jpg");
 }
 
 .container {
@@ -293,4 +306,49 @@ a {
 
 .navActive {
   color: var(--secondary);
+}
+
+/* FONT UTILS */
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.text-tertiary {
+  color: var(--tertiary);
+}
+
+.text-quatrinary {
+  color: var(--quatrinary);
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.text-dark {
+  color: var(--darker);
+}
+
+.text-error {
+  color: var(--error);
 }
