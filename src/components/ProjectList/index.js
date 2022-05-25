@@ -51,8 +51,8 @@ return (
             className="img-thumbnail mx-1"
             key={project.image}
           />
-          <a href='{project.application}'>{project.name} link</a><br></br>
-          <a href='{project.github}'>Github link</a></div>
+          <a href={project.application}>{project.name} link</a><br></br>
+          <a href={project.github}>Github link</a></div>
         ))}
       </div>
     </div>
