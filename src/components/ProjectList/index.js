@@ -47,12 +47,12 @@ return (
     <div>
       <div className="flex-row">
         {projects.map(project => (<div key={project.name} className="card space-between">
-          <img
+          <a href={project.application}><img
             src={require(`../../assets/screenshots/${project.image}`)}
             alt={project.name}
             className="img-thumbnail mx-1"
             key={project.image}
-          />
+          /></a>
           <a href={project.application}>{project.name} link</a><br></br> 
           <a href={project.github}>Github link</a></div>
         ))}

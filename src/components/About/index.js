@@ -19,7 +19,7 @@ function About() {
               paddingTop: "0px",
               alignItems: "baseline",
             }}
-            alt="photo of Haley Schwenk smiling and holidng a camera"
+            alt="Haley Schwenk smiling and holidng a camera"
           />
           I'm an experienced administrative professional with a Master of Arts
           focused in Clinical Psychology from The University of South Dakota. As

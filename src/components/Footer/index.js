@@ -12,10 +12,7 @@ const Footer = () => {
             <a href="mailto: haleynicole126@gmail.com">Email</a>
           </li>
           <li>
-            <a
-              href="https://www.linkedin.com/in/haley-schwenk"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/haley-schwenk" target="_blank">
               LinkedIn
             </a>
           </li>

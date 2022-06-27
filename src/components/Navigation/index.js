@@ -7,7 +7,7 @@ function Nav() {
       <nav>
         <ul className="flex-row">
           <li className="mx-2 nav-link">
-            <Link to="/">About me</Link>
+            <Link to="/about">About me</Link>
           </li>
           <li className="mx-2 nav-link">
             <Link to="/portfolio">Portfolio</Link>
