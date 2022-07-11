@@ -246,15 +246,22 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  width: 50%;
   text-align: center;
   padding: 5px;
+}
+.petcard {
+  margin: 10px;
+}
+.card p {
+  text-align: left;
 }
 
 .img-thumbnail {
   width: auto;
-  height: 300px;
-  margin-bottom: 50px;
+  height: 250px;
+  margin: auto;
+  margin-top: 10px;
   cursor: pointer;
 }
 

@@ -38,8 +38,27 @@ function Contact() {
 
   return (
     <section>
-      <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
+      <h1 data-testid="h1tag">Connect with me</h1>
+      <ul>
+        <li>Email: <a href="mailto: haleynicole126@gmail.com">haleynicole126@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/haley-schwenk" target="_blank">
+              LinkedIn
+            </a></li>
+        <li><a href="https://github.com/HaleyNicole126" target="_blank">
+              GitHub
+            </a></li>
+            <a href="https://www.instagram.com/hnicole126/" target="_blank">
+              Instagram
+            </a>
+            <li><a href="https://twitter.com/haleynicole126" target="_blank">
+              Twitter
+            </a></li>
+            <li><a href="https://www.facebook.com/haley.schwenk" target="_blank">
+              Facebook
+            </a></li>
+      </ul>
+
+      {/* <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
@@ -58,7 +77,7 @@ function Contact() {
           </div>
         )}
         <button data-testid="button" type="submit">Submit</button>
-      </form>
+      </form> */}
     </section>
   );
 }

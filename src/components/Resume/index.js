@@ -1,11 +1,12 @@
 import React from "react";
-import resume from "../../assets/resume/schwenk_resume_Jun22.pdf";
+import resume from "../../assets/resume/schwenk_resume_Jul22.pdf";
 
 function Resume() {
   return (
     <section>
       <h1>Resume</h1>
-      <h2>Proficiencies</h2>
+      <br></br>
+      <h3>Proficiencies</h3>
       <ul>
         <li>JavaScript</li>
         <li>HTML</li>
@@ -22,6 +23,7 @@ function Resume() {
         <li>SPSS</li>
         <li>Microsoft Excel</li>
       </ul>
+      <br></br>
       <h2>
         <a href={resume} target="_blank">
           Resume pdf
