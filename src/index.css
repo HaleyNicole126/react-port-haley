@@ -258,8 +258,8 @@ textarea {
 }
 
 .img-thumbnail {
-  width: auto;
-  height: 250px;
+  width: 50%;
+  height: auto;
   margin: auto;
   margin-top: 10px;
   cursor: pointer;
@@ -361,3 +361,4 @@ a {
 .text-error {
   color: var(--error);
 }
+
